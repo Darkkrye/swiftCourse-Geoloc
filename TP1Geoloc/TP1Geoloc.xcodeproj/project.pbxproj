@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD2E03B1DDC56C800520150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2E03A1DDC56C800520150 /* AppDelegate.swift */; };
+		ECD2E03D1DDC56C800520150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2E03C1DDC56C800520150 /* ViewController.swift */; };
+		ECD2E0401DDC56C800520150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD2E03E1DDC56C800520150 /* Main.storyboard */; };
+		ECD2E0421DDC56C800520150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD2E0411DDC56C800520150 /* Assets.xcassets */; };
+		ECD2E0451DDC56C800520150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD2E0431DDC56C800520150 /* LaunchScreen.storyboard */; };
+		ECD2E0501DDC56C800520150 /* TP1GeolocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2E04F1DDC56C800520150 /* TP1GeolocTests.swift */; };
+		ECD2E05B1DDC56C800520150 /* TP1GeolocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2E05A1DDC56C800520150 /* TP1GeolocUITests.swift */; };
+		ECD2E0691DDC56DD00520150 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2E0681DDC56DD00520150 /* APIController.swift */; };
+		ECD2E06B1DDC57FC00520150 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2E06A1DDC57FC00520150 /* SwiftyJSON.swift */; };
+		ECD2E06F1DDC620000520150 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2E06E1DDC620000520150 /* MapPin.swift */; };
+		ECD2E07A1DDC629000520150 /* JPSThumbnailAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2E0761DDC629000520150 /* JPSThumbnailAnnotation.m */; };
+		ECD2E07B1DDC629000520150 /* JPSThumbnailAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2E0781DDC629000520150 /* JPSThumbnailAnnotationView.m */; };
+		ECD2E07C1DDC629000520150 /* JPSThumnail.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2E0791DDC629000520150 /* JPSThumnail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD2E04C1DDC56C800520150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD2E02F1DDC56C600520150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD2E0361DDC56C700520150;
+			remoteInfo = TP1Geoloc;
+		};
+		ECD2E0571DDC56C800520150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD2E02F1DDC56C600520150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD2E0361DDC56C700520150;
+			remoteInfo = TP1Geoloc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECD2E0371DDC56C800520150 /* TP1Geoloc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TP1Geoloc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD2E03A1DDC56C800520150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECD2E03C1DDC56C800520150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECD2E03F1DDC56C800520150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECD2E0411DDC56C800520150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECD2E0441DDC56C800520150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECD2E0461DDC56C800520150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD2E04B1DDC56C800520150 /* TP1GeolocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TP1GeolocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD2E04F1DDC56C800520150 /* TP1GeolocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP1GeolocTests.swift; sourceTree = "<group>"; };
+		ECD2E0511DDC56C800520150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD2E0561DDC56C800520150 /* TP1GeolocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TP1GeolocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD2E05A1DDC56C800520150 /* TP1GeolocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP1GeolocUITests.swift; sourceTree = "<group>"; };
+		ECD2E05C1DDC56C800520150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD2E0681DDC56DD00520150 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		ECD2E06A1DDC57FC00520150 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		ECD2E06E1DDC620000520150 /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		ECD2E0731DDC628F00520150 /* TP1Geoloc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TP1Geoloc-Bridging-Header.h"; sourceTree = "<group>"; };
+		ECD2E0741DDC629000520150 /* JPSThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSThumbnail.h; sourceTree = "<group>"; };
+		ECD2E0751DDC629000520150 /* JPSThumbnailAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSThumbnailAnnotation.h; sourceTree = "<group>"; };
+		ECD2E0761DDC629000520150 /* JPSThumbnailAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSThumbnailAnnotation.m; sourceTree = "<group>"; };
+		ECD2E0771DDC629000520150 /* JPSThumbnailAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSThumbnailAnnotationView.h; sourceTree = "<group>"; };
+		ECD2E0781DDC629000520150 /* JPSThumbnailAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSThumbnailAnnotationView.m; sourceTree = "<group>"; };
+		ECD2E0791DDC629000520150 /* JPSThumnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSThumnail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD2E0341DDC56C700520150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD2E0481DDC56C800520150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD2E0531DDC56C800520150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD2E02E1DDC56C600520150 = {
+			isa = PBXGroup;
+			children = (
+				ECD2E0391DDC56C800520150 /* TP1Geoloc */,
+				ECD2E04E1DDC56C800520150 /* TP1GeolocTests */,
+				ECD2E0591DDC56C800520150 /* TP1GeolocUITests */,
+				ECD2E0381DDC56C800520150 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD2E0381DDC56C800520150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2E0371DDC56C800520150 /* TP1Geoloc.app */,
+				ECD2E04B1DDC56C800520150 /* TP1GeolocTests.xctest */,
+				ECD2E0561DDC56C800520150 /* TP1GeolocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD2E0391DDC56C800520150 /* TP1Geoloc */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2E0721DDC628100520150 /* JPSThumbnail */,
+				ECD2E03A1DDC56C800520150 /* AppDelegate.swift */,
+				ECD2E03C1DDC56C800520150 /* ViewController.swift */,
+				ECD2E03E1DDC56C800520150 /* Main.storyboard */,
+				ECD2E0411DDC56C800520150 /* Assets.xcassets */,
+				ECD2E0431DDC56C800520150 /* LaunchScreen.storyboard */,
+				ECD2E0461DDC56C800520150 /* Info.plist */,
+				ECD2E0681DDC56DD00520150 /* APIController.swift */,
+				ECD2E06A1DDC57FC00520150 /* SwiftyJSON.swift */,
+				ECD2E06E1DDC620000520150 /* MapPin.swift */,
+			);
+			path = TP1Geoloc;
+			sourceTree = "<group>";
+		};
+		ECD2E04E1DDC56C800520150 /* TP1GeolocTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2E04F1DDC56C800520150 /* TP1GeolocTests.swift */,
+				ECD2E0511DDC56C800520150 /* Info.plist */,
+			);
+			path = TP1GeolocTests;
+			sourceTree = "<group>";
+		};
+		ECD2E0591DDC56C800520150 /* TP1GeolocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2E05A1DDC56C800520150 /* TP1GeolocUITests.swift */,
+				ECD2E05C1DDC56C800520150 /* Info.plist */,
+			);
+			path = TP1GeolocUITests;
+			sourceTree = "<group>";
+		};
+		ECD2E0721DDC628100520150 /* JPSThumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2E0741DDC629000520150 /* JPSThumbnail.h */,
+				ECD2E0751DDC629000520150 /* JPSThumbnailAnnotation.h */,
+				ECD2E0761DDC629000520150 /* JPSThumbnailAnnotation.m */,
+				ECD2E0771DDC629000520150 /* JPSThumbnailAnnotationView.h */,
+				ECD2E0781DDC629000520150 /* JPSThumbnailAnnotationView.m */,
+				ECD2E0791DDC629000520150 /* JPSThumnail.m */,
+				ECD2E0731DDC628F00520150 /* TP1Geoloc-Bridging-Header.h */,
+			);
+			name = JPSThumbnail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD2E0361DDC56C700520150 /* TP1Geoloc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD2E05F1DDC56C800520150 /* Build configuration list for PBXNativeTarget "TP1Geoloc" */;
+			buildPhases = (
+				ECD2E0331DDC56C700520150 /* Sources */,
+				ECD2E0341DDC56C700520150 /* Frameworks */,
+				ECD2E0351DDC56C700520150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TP1Geoloc;
+			productName = TP1Geoloc;
+			productReference = ECD2E0371DDC56C800520150 /* TP1Geoloc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECD2E04A1DDC56C800520150 /* TP1GeolocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD2E0621DDC56C800520150 /* Build configuration list for PBXNativeTarget "TP1GeolocTests" */;
+			buildPhases = (
+				ECD2E0471DDC56C800520150 /* Sources */,
+				ECD2E0481DDC56C800520150 /* Frameworks */,
+				ECD2E0491DDC56C800520150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD2E04D1DDC56C800520150 /* PBXTargetDependency */,
+			);
+			name = TP1GeolocTests;
+			productName = TP1GeolocTests;
+			productReference = ECD2E04B1DDC56C800520150 /* TP1GeolocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECD2E0551DDC56C800520150 /* TP1GeolocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD2E0651DDC56C800520150 /* Build configuration list for PBXNativeTarget "TP1GeolocUITests" */;
+			buildPhases = (
+				ECD2E0521DDC56C800520150 /* Sources */,
+				ECD2E0531DDC56C800520150 /* Frameworks */,
+				ECD2E0541DDC56C800520150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD2E0581DDC56C800520150 /* PBXTargetDependency */,
+			);
+			name = TP1GeolocUITests;
+			productName = TP1GeolocUITests;
+			productReference = ECD2E0561DDC56C800520150 /* TP1GeolocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD2E02F1DDC56C600520150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = etudiant;
+				TargetAttributes = {
+					ECD2E0361DDC56C700520150 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					ECD2E04A1DDC56C800520150 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECD2E0361DDC56C700520150;
+					};
+					ECD2E0551DDC56C800520150 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECD2E0361DDC56C700520150;
+					};
+				};
+			};
+			buildConfigurationList = ECD2E0321DDC56C600520150 /* Build configuration list for PBXProject "TP1Geoloc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECD2E02E1DDC56C600520150;
+			productRefGroup = ECD2E0381DDC56C800520150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD2E0361DDC56C700520150 /* TP1Geoloc */,
+				ECD2E04A1DDC56C800520150 /* TP1GeolocTests */,
+				ECD2E0551DDC56C800520150 /* TP1GeolocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD2E0351DDC56C700520150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD2E0451DDC56C800520150 /* LaunchScreen.storyboard in Resources */,
+				ECD2E0421DDC56C800520150 /* Assets.xcassets in Resources */,
+				ECD2E0401DDC56C800520150 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD2E0491DDC56C800520150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD2E0541DDC56C800520150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD2E0331DDC56C700520150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD2E07C1DDC629000520150 /* JPSThumnail.m in Sources */,
+				ECD2E06F1DDC620000520150 /* MapPin.swift in Sources */,
+				ECD2E03D1DDC56C800520150 /* ViewController.swift in Sources */,
+				ECD2E03B1DDC56C800520150 /* AppDelegate.swift in Sources */,
+				ECD2E0691DDC56DD00520150 /* APIController.swift in Sources */,
+				ECD2E07A1DDC629000520150 /* JPSThumbnailAnnotation.m in Sources */,
+				ECD2E07B1DDC629000520150 /* JPSThumbnailAnnotationView.m in Sources */,
+				ECD2E06B1DDC57FC00520150 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD2E0471DDC56C800520150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD2E0501DDC56C800520150 /* TP1GeolocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD2E0521DDC56C800520150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD2E05B1DDC56C800520150 /* TP1GeolocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD2E04D1DDC56C800520150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD2E0361DDC56C700520150 /* TP1Geoloc */;
+			targetProxy = ECD2E04C1DDC56C800520150 /* PBXContainerItemProxy */;
+		};
+		ECD2E0581DDC56C800520150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD2E0361DDC56C700520150 /* TP1Geoloc */;
+			targetProxy = ECD2E0571DDC56C800520150 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECD2E03E1DDC56C800520150 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD2E03F1DDC56C800520150 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECD2E0431DDC56C800520150 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD2E0441DDC56C800520150 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD2E05D1DDC56C800520150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECD2E05E1DDC56C800520150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD2E0601DDC56C800520150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TP1Geoloc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etudiant.TP1Geoloc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TP1Geoloc/TP1Geoloc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECD2E0611DDC56C800520150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TP1Geoloc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etudiant.TP1Geoloc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TP1Geoloc/TP1Geoloc-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ECD2E0631DDC56C800520150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TP1GeolocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etudiant.TP1GeolocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TP1Geoloc.app/TP1Geoloc";
+			};
+			name = Debug;
+		};
+		ECD2E0641DDC56C800520150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TP1GeolocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etudiant.TP1GeolocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TP1Geoloc.app/TP1Geoloc";
+			};
+			name = Release;
+		};
+		ECD2E0661DDC56C800520150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TP1GeolocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etudiant.TP1GeolocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TP1Geoloc;
+			};
+			name = Debug;
+		};
+		ECD2E0671DDC56C800520150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TP1GeolocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etudiant.TP1GeolocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TP1Geoloc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD2E0321DDC56C600520150 /* Build configuration list for PBXProject "TP1Geoloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD2E05D1DDC56C800520150 /* Debug */,
+				ECD2E05E1DDC56C800520150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD2E05F1DDC56C800520150 /* Build configuration list for PBXNativeTarget "TP1Geoloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD2E0601DDC56C800520150 /* Debug */,
+				ECD2E0611DDC56C800520150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD2E0621DDC56C800520150 /* Build configuration list for PBXNativeTarget "TP1GeolocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD2E0631DDC56C800520150 /* Debug */,
+				ECD2E0641DDC56C800520150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD2E0651DDC56C800520150 /* Build configuration list for PBXNativeTarget "TP1GeolocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD2E0661DDC56C800520150 /* Debug */,
+				ECD2E0671DDC56C800520150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECD2E02F1DDC56C600520150 /* Project object */;
+}
